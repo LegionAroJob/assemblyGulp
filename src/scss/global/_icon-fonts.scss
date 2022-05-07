@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "icomoon";
+    src: url("../fonts-icon/icomoon.eot?klbb42");
+    src: url("../fonts-icon/icomoon.eot?klbb42#iefix") format("embedded-opentype"),
+        url("../fonts-icon/icomoon.ttf?klbb42") format("truetype"),
+        url("../fonts-icon/icomoon.woff?klbb42") format("woff"),
+        url("../fonts-icon/icomoon.svg?klbb42#icomoon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: "icomoon" !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-keyboard_arrow_right:before {
+    content: "\e900";
+}
+.icon-keyboard_arrow_left:before {
+    content: "\e901";
+}
+.icon-briefcase:before {
+    content: "\e015";
+}
+.icon-bargraph:before {
+    content: "\e018";
+}
+.icon-flag:before {
+    content: "\e024";
+}
+.icon-envelope:before {
+    content: "\e028";
+}
+.icon-profile-male:before {
+    content: "\e040";
+}
+.icon-linkedin:before {
+    content: "\e902";
+}
+.icon-telegram:before {
+    content: "\e903";
+}
